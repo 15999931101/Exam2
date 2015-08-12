@@ -1,5 +1,5 @@
 mvn clean;
 mvn compile;
-mvn exec:java -Dexec.mainClass="com.hand.socketServer.MyServerSocket"//运行服务器
-mvn exec:java -Dexec.mainClass="com.hand.exam2.StartClient"//运行客户端，连接时点击连接服务器
+mvn exec:java -Dexec.mainClass="com.hand.ServerTcpListener"//运行服务器
+mvn exec:java -Dexec.mainClass="com.hand.ClientTcpSend"//运行客户端，连接时点击连接服务器
 
